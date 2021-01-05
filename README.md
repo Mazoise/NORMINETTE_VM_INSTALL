@@ -8,8 +8,7 @@ Installing Python3.7 and making an alias and symbolic link to define python3 as 
 ```sudo apt update -y
 sudo apt install python3.7
 echo "alias\ python3='python3.7'" >> ~/.zshrc
-sudo rm /usr/bin/python3
-sudo ln -s /usr/bin/python3.7 /usr/bin/python3
+sudo ln -sf /usr/bin/python3.7 /usr/bin/python3
 source ~/.zshrc
 ```
 
