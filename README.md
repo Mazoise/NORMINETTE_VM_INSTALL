@@ -1,10 +1,9 @@
 # NORMINETTE_VM_INSTALL
 
-Still working on it, don't destroy your computer please...
+For people who struggle to install the new norminette on the VM, here are the steps I had to do (from a virgin VM).
+Please share whichever problem you've faced in the "issues" section.
 
-For people who struggle to install the new norminette on the VM, here are the steps I had to do :
-
-Installing Python3.7 and making an alias and symbolic link to define python3 as python3.7
+Installing Python3.7 and making an alias and symbolic link to define python3 as python3.7 :
 ```sudo apt update -y
 sudo apt install python3.7
 echo "alias python3='python3.7'" >> ~/.zshrc
@@ -12,7 +11,7 @@ sudo ln -sf /usr/bin/python3.7 /usr/bin/python3
 source ~/.zshrc
 ```
 
-Installing norminette and requirements
+Installing norminette and requirements :
 ```sudo git clone https://github.com/42School/norminette.git
 cd ./norminette
 pip3 install -r requirements.txt
@@ -21,7 +20,7 @@ pip3 install importlib.metadata
 sudo -H python3 setup.py install
 ```
 
-Changing the alias of norminette
+Changing the alias of norminette :
 ```
 sed -i '/alias norminette=/d' ~/.zshrc
 echo "alias norminette='norminette'" >> ~/.zshrc
