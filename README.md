@@ -34,4 +34,5 @@ source ~/.zshrc
 
 Check your version :
 ```norminette --version
-norminette 2.52```
+norminette 2.52
+```
