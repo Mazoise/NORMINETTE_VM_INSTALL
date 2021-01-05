@@ -7,7 +7,7 @@ For people who struggle to install the new norminette on the VM, here are the st
 Installing Python3.7 and making an alias and symbolic link to define python3 as python3.7
 ```sudo apt update -y
 sudo apt install python3.7
-echo "alias\ python3='python3.7'" >> ~/.zshrc
+echo "alias python3='python3.7'" >> ~/.zshrc
 sudo ln -sf /usr/bin/python3.7 /usr/bin/python3
 source ~/.zshrc
 ```
@@ -23,7 +23,7 @@ sudo -H python3 setup.py install
 
 Changing the alias of norminette
 ```
-sed -i '/alias\ norminette=/d' ~/.zshrc
-echo "alias\ norminette='norminette'" >> ~/.zshrc
+sed -i '/alias norminette=/d' ~/.zshrc
+echo "alias norminette='norminette'" >> ~/.zshrc
 source ~/.zshrc
 ```
