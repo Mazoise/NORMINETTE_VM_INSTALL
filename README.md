@@ -41,3 +41,5 @@ Check your version :
 norminette --version
     norminette 2.52
 ```
+
+Thanks to cdai and mescande for the help
