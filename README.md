@@ -1,8 +1,11 @@
 # NORMINETTE_VM_INSTALL
 
-For people who struggle to install the new norminette on the VM, here are the steps I had to do (from a virgin VM).
+For people who struggle to install the new norminette on the VM, here are the steps I had to do.
 
-Please share whichever problem you've faced in the "issues" section.
+I'm absolutely not an expert on this, I just don't want people to lose as much time as I have.
+
+If you think this is not the right way to do it or if you've faced other problems, please tell me in the "issues" section.
+
 
 
 Installing Python3.7 and making an alias and symbolic link to define python3 as python3.7 :
