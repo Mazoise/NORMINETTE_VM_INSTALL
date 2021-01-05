@@ -29,10 +29,9 @@ sudo -H python3 setup.py install
 ```
 
 
-Changing the alias of norminette :
+Deleting the alias of norminette :
 ```
 sed -i '/alias norminette=/d' ~/.zshrc
-echo "alias norminette='norminette'" >> ~/.zshrc
 source ~/.zshrc
 ```
 
