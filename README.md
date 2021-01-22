@@ -12,7 +12,7 @@ sudo apt install python3.7
 ```
 
 
-Make an alias and symbolic link to define python3 as python3.7
+Make an alias and symbolic link to define python3 as python3.7 :
 ```
 echo "alias python3='python3.7'" >> ~/.zshrc
 sudo ln -sf /usr/bin/python3.7 /usr/bin/python3
