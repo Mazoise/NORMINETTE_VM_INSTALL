@@ -26,6 +26,7 @@ python3 -V
 
 Install norminette and requirements :
 ```
+cd ~
 sudo git clone https://github.com/42School/norminette.git
 cd ./norminette
 pip3 install -r requirements.txt
