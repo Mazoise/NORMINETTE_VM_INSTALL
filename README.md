@@ -43,7 +43,7 @@ source ~/.zshrc
 Check your version : (if your version is not 3.0 or above, close and reopen your terminal and try again)
 ```
 norminette --version
-    norminette 3.0
+    norminette 3.x
 ```
 
 
