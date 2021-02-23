@@ -1,6 +1,6 @@
 # NORMINETTE_VM_INSTALL
 
-Here is a guideline to install the new norminette on the VM. Please follow the steps one line at a time. Don't continue if you get an error.
+Here is a guideline to install the new norminette (V3) on the VM. Please follow the steps one line at a time. Don't continue if you get an error.
 
 If you think this is not the right way to do it or if you've faced other problems, please tell me in the "issues" section.
 
